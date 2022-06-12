@@ -48,7 +48,7 @@ $mail->Port = "465";
 $mail->From='19ee145@psgitech.ac.in';
 $mail->FromName='swetha';
 $mail->AddAddress($email, 'swe');
-$mail->Subject  =  'ResetPassword';
+$mail->Subject  =  'Confirmation Mail';
 $mail->IsHTML(true);
 $mail->Body = 'Hello! '.$fname . ' Thank You for showing interest in volunteering with us';
 if($mail->Send())
