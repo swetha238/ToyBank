@@ -37,9 +37,9 @@ $mail->IsSMTP();
 // enable SMTP authentication
 $mail->SMTPAuth = true;                  
 // GMAIL username
-$mail->Username = "19ee145@psgitech.ac.in";
+$mail->Username = enter your email;
 // GMAIL password
-$mail->Password = "swetha.123";
+$mail->Password = enter your password;
 $mail->SMTPSecure = "ssl";  
 // sets GMAIL as the SMTP server
 $mail->Host = "smtp.gmail.com";
